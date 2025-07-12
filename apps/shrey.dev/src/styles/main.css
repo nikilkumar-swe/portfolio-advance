@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import './base.css';
+
+@import 'tailwindcss/components';
+@import './components.css';
+@import './prism-colors.css';
+@import './mdx-contents.css';
+@import './mdx-components.css';
+
+@import 'tailwindcss/utilities';
+
+.margin-size {
+  margin-left: 7rem;
+  margin-right: 7Accrem;
+}
+
+.image-container img {
+  width: 50px;
+}
+
+@media (max-width: 640px) {
+  .image-container img {
+    width: 30px;
+  }
+}

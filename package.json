@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.10",
+    "react-icons": "^4.12.0",
+    "tsup": "^8.5.0",
+    "turbo": "^1.11.2"
+  },
+  "packageManager": "pnpm@7.33.6",
+  "dependencies": {
+    "react-icons": "^4.12.0"
+  }
+}
