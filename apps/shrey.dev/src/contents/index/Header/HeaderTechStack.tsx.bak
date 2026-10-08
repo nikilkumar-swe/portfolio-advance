@@ -1,0 +1,157 @@
+import clsx from 'clsx';
+import { m } from 'framer-motion';
+
+
+imFaBraoFaBrain, FaRobot, FaDatabase } from 'react-icons/fa';
+Faatabas
+imrtRobo{,
+  HibernateIcon,fa  IntellijIdeaIcon,
+  JavaIc
+  SiDocker,on,
+  SiMastnpIon,
+  SiMysqlsIcon,
+  SiPynhonIcon,
+  SqlServerIcon,si
+} from '@/components/Icons';
+
+const animation = {
+  hide: { x: -8, opacity: 0 },
+  show: {
+    x: 0,
+    opacity: 1,
+  },
+};
+
+function HeaderTechStack() {
+  return (
+    <div>
+      <m.p
+        className={clsx('mb-2.5 text-sm text-slate-600', 'dark:text-slate-400')}
+        initial={animation.hide}
+        animate={animation.show}
+        transition={{ delay: 0.6 }}
+      >
+        current favorite tech stack/tools:
+      </m.p>
+
+      <m.ul
+        className={clsx(
+          'flex flex-wrap items-center gap-3.5 text-slate-500',
+          'dark:text-slate-500'
+        )}
+        initial="hide"
+        animate="show"
+        transition={{
+          delayChildren: 0.6,
+          staggerChildren: 0.025,
+        }}
+      >
+        <m.li variants={animation} title="Java">
+          <div className="transition duration-200 hover:text-[#cf0202]">
+            <JavaIcon className="h-6 w-6" />
+          </div>
+        </m.li>
+
+        <m.li variants={animation} title="Spring Boot">
+          <div className="transition duration-200 hover:text-[#049115]">
+            <SpringBootIcon className="h-6 w-6" />
+          </div>
+        </m.li>
+
+        <m.li variants={animation} title="Hibernate">
+          <div className="transition duration-200 hover:text-[#f7d683]">
+            <HibernateIcon className="h-6 w-6" />
+          </div>
+        </m.li>
+
+        <m.li variants={animation} title="Maven">
+          <div className="transition duration-200 hover:text-[#961754]">
+            <MavenIcon className="h-6 w-6" />
+          </div>
+        </m.li>
+
+        <m.li variants={animation} title="PostgreSQL">
+          <div className="transition duration-200 hover:text-[#105082]">
+            <PostgresIcon className="h-6 w-6" />
+          </div>
+        </m.li>
+
+        <m.li variants={animation} title="SQL Server">
+          <div className="transition duration-200 hover:text-[#6b0202]">
+            <SqlServerIcon className="h-6 w-6" />
+          </div>
+        </m.li>
+
+        <m.li variants={animation} title="Python">
+          <div className="transition duration-200 hover:text-[#3776AB]">
+            <SiPython className="h-6 w-6" />
+          </div>
+        </m.li>
+
+        <m.li variants={animation} title="FastAPI">
+          <div className="transition duration-200 hover:text-[#009688]">
+            <SiFastapi className="h-6 w-6" />
+          </div>
+        </m.li>
+
+        <m.li variants={animation} title="MySQL">
+          <div className="transition duration-200 hover:text-[#4479A1]">
+            <SiMysql className="h-6 w-6" />
+          </div>
+        </m.li>
+
+        <m.li variants={animation} title="Docker">
+          <div className="transition duration-200 hover:text-[#2496ED]">
+            <SiDocker className="h-6 w-6" />
+          </div>
+        </m.li>
+
+        <m.li variants={animation}>
+          <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700" />
+        </m.li>
+
+        <m.li variants={animation} title="LLMs">
+          <div className="transition duration-200 hover:text-[#10A37F]">
+            <FaBrain className="h-6 w-6" />
+          </div>
+        </m.li>
+
+        <m.li variants={animation} title="Spring AI">
+          <div className="transition duration-200 hover:text-[#6DB33F]">
+            <SpringBootIcon className="h-6 w-6" />
+          </div>
+        </m.li>
+
+        <m.li variants={animation} title="Agentic AI">
+          <div className="transition duration-200 hover:text-[#A855F7]">
+            <FaRobot className="h-6 w-6" />
+          </div>
+        </m.li>
+
+        <m.li variants={animation} title="RAG">
+          <div className="transition duration-200 hover:text-[#F59E0B]">
+            <FaDatabase className="h-6 w-6" />
+          </div>
+        </m.li>
+
+        <m.li variants={animation}>
+          <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700" />
+        </m.li>
+
+        <m.li variants={animation} title="IntelliJ IDEA">
+          <div className="transition duration-200 hover:text-[#FFFFFF]">
+            <IntellijIdeaIcon className="h-6 w-6" />
+          </div>
+        </m.li>
+
+        <m.li variants={animation} title="Git">
+          <div className="transition duration-200 hover:text-[#fa5c5c]">
+            <GitIcon className="h-6 w-6" />
+          </div>
+        </m.li>
+      </m.ul>
+    </div>
+  );
+}
+
+export default HeaderTechStack;

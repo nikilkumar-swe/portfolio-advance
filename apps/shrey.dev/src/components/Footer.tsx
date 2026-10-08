@@ -15,15 +15,23 @@ function FooterDescription() {
       >
         About Me
       </div>
+
       <p className={clsx('mb-4 font-normal leading-relaxed')}>
-        I&apos;m Nikhil Kumar Rana, a <strong>Java Backend developer</strong>{' '}
-        passionate about exploring new technologies and building innovative
-        solutions.I&apos;m currently woking with AI,NLP and data.
+        I&apos;m Nikhil Kumar Rana, a{' '}
+        <strong>Software Engineer and Java Backend Developer</strong> skilled in
+        Spring Boot, Python, REST APIs, databases, and microservices. I&apos;m
+        passionate about building scalable, secure applications and currently
+        exploring{' '}
+        <strong>
+          Generative AI, LLMs, Spring AI, AI Agents, and System Design
+        </strong>
+        .
       </p>
+
       <ul className={clsx('-ml-2 flex gap-1')}>
         <li>
           <a
-            href="https://github.com/beingnikil07/"
+            href="https://github.com/nikilkumar-swe"
             target="_blank"
             rel="noreferrer nofollow"
             className={clsx('flex h-9 w-9 items-center justify-center')}

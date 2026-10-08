@@ -168,6 +168,7 @@ function SkillsAndTech() {
           height="50"
           width="50"
         />
+
         <Image
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
           alt="Postgress"

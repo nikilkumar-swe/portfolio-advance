@@ -79,13 +79,15 @@ function Navbar() {
                 title="Instagram"
               />
             </li>
+
             <li className={clsx('hidden', 'sm:block')}>
               <NavIcon
-                href="https://github.com/beingnikil07"
+                href="https://www.github.com/nikilkumar-swe"
                 icon={<GitHubIcon className={clsx('h-5 w-5')} />}
                 title="GitHub"
               />
             </li>
+
             <li className={clsx('hidden', 'sm:block')}>
               <div
                 className={clsx(
