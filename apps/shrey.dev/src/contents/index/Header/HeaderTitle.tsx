@@ -71,7 +71,7 @@ function HeaderTitle() {
         >
           I'm{' '}
           <strong className={clsx('text-accent-600', 'dark:text-accent-500')}>
-            Nikhil Kumar Rana
+            Nikil Kumar
           </strong>
         </m.span>
 

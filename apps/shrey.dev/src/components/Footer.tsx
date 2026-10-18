@@ -17,7 +17,7 @@ function FooterDescription() {
       </div>
 
       <p className={clsx('mb-4 font-normal leading-relaxed')}>
-        I&apos;m Nikhil Kumar Rana, a{' '}
+        I&apos;m Nikil Kumar, a{' '}
         <strong>Software Engineer and Java Backend Developer</strong> skilled in
         Spring Boot, Python, REST APIs, databases, and microservices. I&apos;m
         passionate about building scalable, secure applications and currently
