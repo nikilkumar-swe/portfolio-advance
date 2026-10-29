@@ -60,12 +60,20 @@ function SkillsAndTech() {
           width="50"
           crossOrigin=""
         />
-        <Image
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-          alt="Amazon Web Services"
-          height="50"
+        {/* MCP */}
+        <img
+          src="https://devicons.io/devicons/icons/mcp.svg"
+          alt="MCP"
+          height="40"
           width="50"
-          crossOrigin=""
+        />
+
+        {/* Pinecone */}
+        <img
+          src="https://devicons.io/devicons/icons/pinecone.svg"
+          alt="Pinecone"
+          height="40"
+          width="50"
         />
 
         <Image
